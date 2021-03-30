@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Philosopher:wght@400;700&family=Roboto:wght@400;500&family=Ubuntu:wght@400;700&display=swap');
+
+/* Fonts Used */
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+.Footer-section{
+    padding: 20px;
+    background: black;
+    color: white;
+    font-family: 'Philosopher', sans-serif;  
+}
+
+.Footer-section .Footer-First-Box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Footer-section .Footer-First-Box h5{
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+    width: 40%;
+}
+
+
+.Footer-section .Footer-First-Box a{
+    color: rgb(218, 216, 216);
+    text-decoration: none;
+    transition: all 0.4s ease;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+}
+
+.Footer-section .Footer-First-Box a:hover{
+    text-decoration: underline;
+}
+
+.Footer-section .Footer-First-Box address{
+    display: flex;
+    flex-direction: column;
+}
+
+.lastPara{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    padding: 10px;
+}
+
+.socialmedia .Social-Media-Icon-1 a{
+    color: #365fb8;
+}
+
+.socialmedia .Social-Media-Icon-2 a{
+    color: rgb(0, 157, 255);
+}
+
+.socialmedia .Social-Media-Icon-3 a{
+    color: crimson;
+}
+
+.socialmedia .Social-Media-Icon-4 a{
+    color: red;
+}
+
+
+@media only screen and (max-width:992px){
+    .Footer-section .Footer-First-Box h5{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .Footer-section .row{
+        text-align: center;
+    }
+
+    .Footer-section .Footer-First-Box h5{
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
+
+@media only screen and (max-width:576px){
+    .Footer-section .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Footer-First-Box .socialmedia{
+        display: none;
+    }
+}

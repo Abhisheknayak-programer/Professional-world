@@ -31,17 +31,23 @@ const Navbar = () => {
                                             <li><NavLink className="dropdown-item" to="#">Electronics</NavLink></li>
                                             <li><NavLink className="dropdown-item" to="#">Antivirus</NavLink></li>
                                             <li><hr className="dropdown-divider" /></li>
-                                            <li><NavLink className="dropdown-item" to="#">Laptops</NavLink></li>
+                                            <li><NavLink className="dropdown-item" to="/laptops">Best Laptops</NavLink></li>
                                             <li><NavLink className="dropdown-item" to="#">Other Products</NavLink></li>
                                          </ul>
                                        </li>
                                        
+                                       <li className="nav-item">
+                                            <NavLink activeClassName='menu-link-active' className="nav-link" to="/electronics">Electronics</NavLink>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <NavLink activeClassName='menu-link-active' className="nav-link" to="/laptops">Laptops</NavLink>
+                                        </li>
+
                                         <li className="nav-item">
                                             <NavLink activeClassName='menu-link-active' className="nav-link" to="/about">About</NavLink>
                                         </li>
-                                        <li className="nav-item">
-                                            <NavLink activeClassName='menu-link-active' className="nav-link" to="/services">Services</NavLink>
-                                        </li>
+ 
                                         <li className="nav-item">
                                             <NavLink activeClassName='menu-link-active' className="nav-link" to="/contact">Contact</NavLink>
                                         </li>
