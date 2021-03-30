@@ -4,7 +4,7 @@ import "./Laptops.css";
 const Laptops = () =>{
     return (
         <>
-
+            <h1>Laptops</h1>
         </>
     )
 }

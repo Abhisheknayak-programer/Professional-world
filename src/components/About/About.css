@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Philosopher:wght@400;700&family=Roboto:wght@400;500&family=Ubuntu:wght@400;700&display=swap');
+
+/* Fonts Used */
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+.About-Section{
+    min-height: 52vh;
+    padding: 30px;
+    background: black;
+    color: white;
+}
+
+.About-Section h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.About-Section .About-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Section .About-Content p{
+    text-align: center;
+    letter-spacing: 0.8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width:576px){
+    .About-Section .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .About-Section .About-Content p{
+        text-align: justify;
+        letter-spacing: 0.3px;
+    }
+}
