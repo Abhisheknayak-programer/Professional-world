@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Philosopher:wght@400;700&family=Roboto:wght@400;500&family=Ubuntu:wght@400;700&display=swap');
+
+/* Fonts Used */
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.First-section{
+    background: url("../../assets/images/MainImg/mainImg.jpg")center center/cover;
+    height: 92vh;
+    width: 100%;
+}
+
+.ImgContent{
+    /* color: white; */
+    font-family: 'Philosopher', sans-serif;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ImgContent h1,h4,h6{
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.ImgContent a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(248,249,250);
+}
+
+
+
+
+/* Second Layer Css */
+.Second-Layer{
+    min-height: 100vh;
+}
+
+.Second-Layer-Heading{
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Second-Layer .Img-Row-1,.Second-Layer .Img-Row-2,.Second-Layer .Img-Row-3{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Second-Layer .Img-Row-1 img{
+    height: 40vh;
+    width: 100%;
+    transition: all 1.5s ease;
+}
+
+.Second-Layer .Img-Row-1 img:hover{
+    transform: scale(1.4);
+}
+
+.Second-Layer .Img-Row-2 img{
+    height: 50vh;
+    transition: all 1.5s ease;
+    width: 100%;
+}
+
+.Second-Layer .Img-Row-2 img:hover{
+    transform: scale(1.1);
+}
+
+
+.Second-Layer .Img-Row-3 img{
+    transition: all 1.5s ease;
+    width: 100%;
+}
+
+.Second-Layer .Img-Row-3 img:hover{
+    transform: scale(1.4);
+}
+
+
+@media only screen and (max-width:576px){
+    .ImgContent h1,h4,h6{
+        letter-spacing: 0.2px;
+    }
+    .Second-Layer .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+

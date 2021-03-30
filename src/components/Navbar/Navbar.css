@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Philosopher:wght@400;700&family=Roboto:wght@400;500&family=Ubuntu:wght@400;700&display=swap');
+
+/* Fonts Used */
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+nav{
+    font-family: 'Philosopher', sans-serif;
+}
+
+a{
+    text-transform: uppercase;
+}
+
+.menu-link-active{
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+nav .navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.dropdown .dropdown-item{
+    background: white;
+    color: black;
+}
+
+@media only screen and (max-width:576px){
+.navbar-toggler{
+    border: none;
+}   
+
+nav .navbar-brand{
+    font-size: 17px;
+}
+}

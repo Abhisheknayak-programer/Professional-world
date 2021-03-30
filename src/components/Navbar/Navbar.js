@@ -1,6 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "./Navbar.css";
 
 const Navbar = () => {
     return (
@@ -11,23 +13,37 @@ const Navbar = () => {
 
                         <nav className="navbar navbar-expand-lg navbar-light bg-light">
                             <div className="container-fluid">
-                                <a className="navbar-brand" href="#">Professional World</a>
+                                <NavLink className="navbar-brand" to="/">Professional World</NavLink>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                                         <li className="nav-item">
-                                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                            <NavLink activeClassName='menu-link-active' className="nav-link active" aria-current="page" to="/">Home</NavLink>
+                                        </li>
+
+                                        <li className="nav-item dropdown">
+                                        <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Products
+                                        </NavLink>
+                                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><NavLink className="dropdown-item" to="#">Electronics</NavLink></li>
+                                            <li><NavLink className="dropdown-item" to="#">Antivirus</NavLink></li>
+                                            <li><hr className="dropdown-divider" /></li>
+                                            <li><NavLink className="dropdown-item" to="#">Laptops</NavLink></li>
+                                            <li><NavLink className="dropdown-item" to="#">Other Products</NavLink></li>
+                                         </ul>
+                                       </li>
+                                       
+                                        <li className="nav-item">
+                                            <NavLink activeClassName='menu-link-active' className="nav-link" to="/about">About</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">About</a>
+                                            <NavLink activeClassName='menu-link-active' className="nav-link" to="/services">Services</NavLink>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">Services</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#">Contact</a>
+                                            <NavLink activeClassName='menu-link-active' className="nav-link" to="/contact">Contact</NavLink>
                                         </li>
                                     </ul>
                                 </div>
