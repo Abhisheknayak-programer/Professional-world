@@ -28,11 +28,11 @@ const Navbar = () => {
                                             Products
                                         </NavLink>
                                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><NavLink className="dropdown-item" to="#">Electronics</NavLink></li>
-                                            <li><NavLink className="dropdown-item" to="#">Antivirus</NavLink></li>
+                                            <li><NavLink className="dropdown-item" to="/electronics">Electronics</NavLink></li>
+                                            <li><NavLink className="dropdown-item" to="/antivirus">Antivirus</NavLink></li>
                                             <li><hr className="dropdown-divider" /></li>
                                             <li><NavLink className="dropdown-item" to="/laptops">Best Laptops</NavLink></li>
-                                            <li><NavLink className="dropdown-item" to="#">Other Products</NavLink></li>
+                                            <li><NavLink className="dropdown-item" to="/otherproducts">Other Products</NavLink></li>
                                          </ul>
                                        </li>
                                        

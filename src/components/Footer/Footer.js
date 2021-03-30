@@ -23,10 +23,10 @@ const Footer = () =>{
 
                         <div className="col col-lg-4 col-md-4 col-sm-12 Footer-First-Box">
                             <h5>Best Products</h5>
-                            <NavLink to="#">Electronic Gadget</NavLink>
-                            <NavLink to="#">Antivirus Safety</NavLink>
+                            <NavLink to="/electronics">Electronic Gadget</NavLink>
+                            <NavLink to="/antivirus">Antivirus Safety</NavLink>
                             <NavLink to="#">Trending Books</NavLink>
-                            <NavLink to="#">Gaming Laptops</NavLink>
+                            <NavLink to="/laptops">Gaming Laptops</NavLink>
                             <NavLink to="#">Best Pendrives</NavLink>
                         </div>
 

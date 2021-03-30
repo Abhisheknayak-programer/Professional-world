@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Philosopher:wght@400;700&family=Roboto:wght@400;500&family=Ubuntu:wght@400;700&display=swap');
+
+/* Fonts Used */
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.Contact-section{
+    padding: 40px;
+    min-height: 50vh;
+    background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+    background-blend-mode: overlay, hard-light, normal;
+}
+
+.Contact-section h1{
+    text-decoration: underline;
+    text-decoration-color: rgb(242, 241, 243);
+    color: white;
+}
+
+
+.Contact-section .row form input,.Contact-section .row form textarea{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #080650;
+}
+
+.Contact-section .row form .submit_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -13,9 +13,6 @@ import img8 from "../../assets/images/SecondLayerImg/img8.jpg"
 // import img10 from "../../assets/images/SecondLayerImg/img10.jpg"
 import img11 from "../../assets/images/SecondLayerImg/img11.jpg"
 import banner from "../../assets/images/LandingPageImg/initiatives-banner.jpg";
-import Footer from "../Footer/Footer";
-
-
 
 
 const Home = () => {
@@ -165,11 +162,6 @@ const Home = () => {
 
 
 
-
-
-        {/* Footer Section */}
-
-        <Footer />
 
         </>
     )
