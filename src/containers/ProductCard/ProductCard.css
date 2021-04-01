@@ -6,3 +6,106 @@ font-family: 'Lobster', cursive;
 font-family: 'Philosopher', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.productCard{
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 3px 27px -9px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 2px 3px 27px -9px rgba(0,0,0,0);
+}
+
+.productCard del{
+    color: grey;
+}
+
+.productCard h1{
+    text-transform: capitalize;
+}
+
+.productCard img{
+    height: 200px;
+    width: 100%;
+    transition: all 4s ease;
+    cursor: pointer;
+}
+
+
+.productCard img:hover{
+    transform: scale(1.5);
+}
+
+.productCard .layer-1{
+    overflow: hidden;
+}
+
+.productCard a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.productCard .layer-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productCard .layer-2{
+    padding: 20px 0px;
+}
+
+.productCard .layer-2 h2{
+    text-align: center;
+}
+
+
+.productCard .Three_in_One{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width:1400px){
+    .productCard{
+        margin: 40px;
+    }
+}
+
+
+
+@media only screen and (max-width:1200px){
+    .productCard{
+        margin: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width:992px){
+    .productCard{
+        margin: 20px;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    .productCard{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (max-width:576px){
+    .productCard{   
+        
+    }
+}
