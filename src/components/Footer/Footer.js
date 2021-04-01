@@ -64,7 +64,7 @@ const Footer = () =>{
                 </div>
 
             </section>
-            <p className="text-center lastPara">Copyright &copy; Professionalworld 2021 | All Rights Reserved !</p>
+            <p className="text-center lastPara">Copyright &copy; Professional World | Radha Shyam Sundar Enterprises 2021 | All Rights Reserved !</p>
         </>
     )
 }

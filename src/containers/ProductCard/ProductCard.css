@@ -60,8 +60,9 @@ font-family: 'Ubuntu', sans-serif; */
     padding: 20px 0px;
 }
 
-.productCard .layer-2 h2{
+.productCard .layer-2 h3{
     text-align: center;
+    padding: 0px 10px;
 }
 
 
@@ -105,7 +106,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 
 @media only screen and (max-width:576px){
-    .productCard{   
+    /* .productCard{   
         
-    }
+    } */
 }

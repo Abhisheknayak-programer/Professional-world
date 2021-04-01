@@ -32,6 +32,56 @@ font-family: 'Ubuntu', sans-serif; */
     letter-spacing: 1px;
 }
 
+.ImgContent h4{
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    animation-name: Abhishek;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Abhishek {
+    10%{
+        color: crimson;
+    }
+
+    20%{
+        color: aqua;
+    }
+
+    30%{    
+        color: chartreuse;
+    }
+
+    40%{
+        color: white;
+    }
+
+    50%{
+        color: goldenrod;
+    }
+
+    60%{
+        color: violet;
+    }
+
+    70%{
+        color: grey;
+    }
+    80%{
+        color: yellow;
+    }
+
+    90%{
+        color: #ba04c0;
+    }
+
+    100%{
+        color: rgb(231, 29, 107);
+    }
+}
+
 .ImgContent a{
     text-decoration: none;
 }

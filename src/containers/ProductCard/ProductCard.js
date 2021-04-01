@@ -12,7 +12,7 @@ const ProductCard = (props) =>{
                 </div>
 
                 <div className="layer-2">
-                    <NavLink  to={props.redirect}><h2>{props.name}</h2></NavLink>
+                    <NavLink  to={props.redirect}><h3>{props.name}</h3></NavLink>
                     
                     <div className="Three_in_One">
                         <del><h3>&#8377;{props.DeletedPrice}</h3></del>
