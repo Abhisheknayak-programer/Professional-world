@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Philosopher:wght@400;700&family=Roboto:wght@400;500&family=Ubuntu:wght@400;700&display=swap');
+
+/* Fonts Used */
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.LaptopInnerPage{
+    font-family: 'Roboto', sans-serif;
+}
+
+.LaptopInnerPage h1{
+    text-transform: uppercase;
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.LaptopInnerPage del{
+    color: grey;
+}
+
+.LaptopInnerPage h4{
+    display: inline-block;
+}
+
+.Main_Redirection_layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width:576px){
+    .LaptopInnerPage .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+    }
+
+    .LaptopInnerPage .row .Second-Col{
+        padding: 10px;
+    }
+}

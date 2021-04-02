@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.CarouselImg{
+    height: 60vh;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+
+@media only screen and (max-width:576px){
+    
+.CarouselImg{
+    height: 40vh;
+}
+
+button span{
+    display: none;
+}
+
+}

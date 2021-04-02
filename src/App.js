@@ -13,8 +13,8 @@ import Electronics from "./containers/Electronics/Electronics";
 import OtherProducts from "./containers/OtherProducts/OtherProducts";
 import Antivirus from "./containers/Antivirus/Antivirus";
 import Footer from "./components/Footer/Footer";
-
-
+import Laptop1 from "./containers/Laptops/LaptopInnerPages/LaptopInnerPage";
+import LaptopAddress from "./containers/Laptops/LaptopAddressCollect/LaptopAddress";
 
 const App = () => {
     return (
@@ -29,6 +29,9 @@ const App = () => {
             <Route exact path="/electronics" component={Electronics} />
             <Route exact path="/otherproducts" component={OtherProducts} />
             <Route exact path="/antivirus" component={Antivirus} />
+            <Route exact path="/laptop1-address-collector" component={LaptopAddress} />
+
+            <Route exact path="/laptop1" component={Laptop1} />
             
             <Redirect to="/"/>
             </Switch>

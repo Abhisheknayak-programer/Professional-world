@@ -7,12 +7,13 @@ const Laptop = [
         price : "54000",
         Ratings : "5",
         redirect : "/laptop1",
+        redirect2 : "/laptop1-address-collector",
         warrenty : "1 year",
         delivery : "50",
         battery_backup : "12 hrs",
         BatteryCell : "3 cell",
-        model : "15s-GR0006AU",
-        Series : "15s",
+        model : "14s-GR0006AU",
+        Series : "14s",
         color : "Jet Black",
         Ms_Office : "Yes",
         Processor : "AMD",
@@ -39,11 +40,13 @@ const Laptop = [
         KeyFetures3 : "Light Laptop Without Optical Disk Drive",
         Manufacturer_origin : "China",
         Manufacturer_Details : "Tech Front (Chongqing) Computer Co. Ltd, No.18 , Zongboa Road , Shapingba Dist,Chongquing 401332,China",
-        img1 : "",
-        img2 : "",
-        img3 : "",
-        img4 : ""
+        img1 : "https://cdn.mos.cms.futurecdn.net/A4GDK27VMnz6LtFDy9yzk.jpg",
+        img2 : "https://img.etimg.com/thumb/msid-70450624,width-650,imgsize-273503,,resizemode-4,quality-100/dell-expresssign-is-one-of-the-most-impressing-features-on-the-laptop-.jpg",
+        img3 : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtPmMs6KLirjcTLujOaW4vivs3xc_NX4I-Z2uRtHkRcT25cT8cpAwdtXvVVdRkX1iOwxg&usqp=CAU",
+        img4 : "https://cdn.mos.cms.futurecdn.net/vEcELHdn998wRTcCzqV5m9.jpg"
     },
+
+    
 
 ]
 

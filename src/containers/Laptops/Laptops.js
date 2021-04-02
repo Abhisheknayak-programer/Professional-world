@@ -4,7 +4,6 @@ import Laptop from "../API/LaptopApi";
 import ProductCard from "../ProductCard/ProductCard";
 
 
-
 function Laptop_Card(element, index, arr) {
     return (
         <ProductCard
@@ -20,6 +19,13 @@ function Laptop_Card(element, index, arr) {
 }
 
 
+// const Func = () =>{
+//     console.log(Laptop[0].img1);
+//     console.log(Laptop[0].img2);
+//     console.log(Laptop[0].img3);
+//     console.log(Laptop[0].img4);
+// }
+
 
 
 const Laptops = () => {
@@ -30,7 +36,7 @@ const Laptops = () => {
                 <div className="row myrow">
 
                     {Laptop.map(Laptop_Card)}
-                  
+
                 </div>
             </div>
         </>
