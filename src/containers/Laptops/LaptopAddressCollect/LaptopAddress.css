@@ -6,3 +6,21 @@ font-family: 'Lobster', cursive;
 font-family: 'Philosopher', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
+
+.Address_collect_section{
+    min-height: 50vh;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Address_collect_section h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Address_collect_section input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}

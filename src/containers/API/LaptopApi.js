@@ -43,7 +43,8 @@ const Laptop = [
         img1 : "https://cdn.mos.cms.futurecdn.net/A4GDK27VMnz6LtFDy9yzk.jpg",
         img2 : "https://img.etimg.com/thumb/msid-70450624,width-650,imgsize-273503,,resizemode-4,quality-100/dell-expresssign-is-one-of-the-most-impressing-features-on-the-laptop-.jpg",
         img3 : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtPmMs6KLirjcTLujOaW4vivs3xc_NX4I-Z2uRtHkRcT25cT8cpAwdtXvVVdRkX1iOwxg&usqp=CAU",
-        img4 : "https://cdn.mos.cms.futurecdn.net/vEcELHdn998wRTcCzqV5m9.jpg"
+        img4 : "https://cdn.mos.cms.futurecdn.net/vEcELHdn998wRTcCzqV5m9.jpg",
+        Pay : "https://www.payumoney.com/paybypayumoney/#/8D7B7C5D83F13C444F779D1B1901B4F8"
     },
 
     
